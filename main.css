@@ -20,7 +20,10 @@ h1 {
 h2 {
     font-size: 40px;
 }
-
+.navbar{
+    min-height: 70px;
+    z-index: 1;
+}
 /* This just centers the header container vertically on the page. */
 .container-fluid {
     height: 200px;
@@ -45,6 +48,8 @@ h2 {
     position: absolute;
     bottom: 0;
     width: 100%;
+    margin-bottom: 10%;
+    margin-top: 20%;
 }
 
 /*Styling for Model
