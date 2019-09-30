@@ -1,6 +1,6 @@
 
 body {
-    background: url("image/backdrop.jpeg"); /* Links to your background image, which you can also replace with a URL. */
+    background: url("image/Background-BB-1600px.jpg"); /* Links to your background image, which you can also replace with a URL. */
     background-size: cover; /* Image covers page. */
     background-repeat: no-repeat; /* Image does not repeat. */
     background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
@@ -8,6 +8,34 @@ body {
     text-align: center;
     color: white; /* Text color. */
     font-family: 'Avenir', sans-serif; /* Font: sans-serif included in case browser doesn't support first option. */
+}
+div.header{
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#logo:link, #logo:visited {
+    margin-top: 10%;
+    background-color: darkcyan;
+    border-radius: 1.5em;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#logo:hover, #logo:active {
+    background-color: grey;
+}
+
+#navbarCollapse > ul:nth-child(1) > li.active > a {
+    padding: 40px;
+    padding-top: 20%
+}
+#navbarCollapse > ul:nth-child(1) > li.active > a > strong > em {
+    font-size: xx-large;
+    color: #cccccc;
 }
 .hemp img {
     height: 20%;
@@ -53,15 +81,43 @@ h2 {
 }
 
 body > footer > div > div {
-    margin-top: 20px;
+    background-color: rgba(32, 178, 170, 0.28);
 }
 
-/*Styling for Model
+div.icons {
+    margin-top: 100px;
+}
+
+/*BLOCKQUOTE
  */
+blockquote {
+    color: black;
+    background: rgba(249, 249, 249, 0.57);
+    border-left: 10px solid #ccc;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+/*!*blockquote:before {*!*/
+    /*!*color: rgba(204, 204, 204, 0.56);*!*/
+    /*!*content: open-quote;*!*/
+    /*!*font-size: 4em;*!*/
+    /*!*line-height: 0.1em;*!*/
+    /*!*margin-right: 0.25em;*!*/
+    /*!*vertical-align: -0.4em;*!*/
+/*!*}*!*/
+/*!*blockquote p {*!*/
+    /*!*display: inline;*!*/
+/*!*}*!*/
+
+
+/*!*Styling for Model*/
+ /**!*/
 button {
     margin: 1%;
     padding: 2.5%;
-    color: #1b8e21;
+    color: #20b2aa;
     background-color: #333333;
     border: 1em;
     border-radius: 50%;
@@ -139,3 +195,4 @@ body {font-family: Arial, Helvetica, sans-serif;}
     background-color: #20b2aa;
     color: white;
 }
+
